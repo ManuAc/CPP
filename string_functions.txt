@@ -1,0 +1,4 @@
+string substr(pos, length) = Substring of given length starting from position pos
+string replace(pos, length, substr) = Replace substring from given pos of a given length with the given substring
+std::stoi(string) = String to integer
+std::to_string(int) = Integer to string
