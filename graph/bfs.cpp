@@ -48,6 +48,8 @@ void Graph::bfs(int start) {
   }
 }
 
+// If the graph is disconnected then traverse through each node and if its not marked as visited then call bfs on that node
+
 int main()
 {
   int size = 4, start;
