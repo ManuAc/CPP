@@ -23,7 +23,7 @@ void heapify(int arr[], int n, int index) {
 
 void heapsort(int arr[], int n) {
   // Build the heap in thee bottom up manner
-  // A heap is a complete binary tree so element afte ciel (n/2)-1 are leaf nodes.
+  // A heap is a complete binary tree so element after ciel (n/2)-1 are leaf nodes.
   // Left child = 2*i + 1
   // Right child = 2*i + 2
   for(int i=(n/2)-1; i >=0; i--)
